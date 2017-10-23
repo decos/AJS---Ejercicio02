@@ -49,3 +49,33 @@ ANGULAR 111: APP, CONTROLLERS Y SCOPE
 				el navegador web, por lo que la foto no se encuentra en ningun lado.
 
 			- Cuando termina de ejecutar angular y se inicializa, agrega la imagen.
+
+
+	DIRECTIVAS App Y Controller: PARTE 2
+
+		1. Agregar una caja de texto para el nombre
+
+		- Solo hay que poner las llaves("{{ }}") cuando ya usamos el "ng-src", caso contrario no porque
+			ya es una directiva de Angular 
+
+		2. Agregar una caja de texto para la edad
+
+		3. Agregar una caja de texto para la biografia
+
+		- $scope: 
+			Es una variable global, esta fuera del controlador, vive en el ambito de angular.
+			Tiene propiedades, funciones, metodos.
+
+		4. En el fichero "app.js" realizar lo siguiente:
+			- Pasar al controlador el parametro $scope
+			- Asignar a la variable $scope el objeto "profesorData"
+
+		5. Ademas, crear la funcion "EditarProfesor" en el $scope
+			- Usar "angular.copy" , primer parametro "lo que copiaremos", segundo parametro "a donde copiar"
+
+		6. Añadir un boton debajo de la "edad" llamado "Editar"
+			- Agregar la propiedad "ng-click" y pasarle como valor "EditarProfesor()"
+
+		7. Agregar en la vista los botones "Guardar" y "Cancelar"
+
+		8. Añadir las funcionalidades para los dos botones creados en el punto 7.
