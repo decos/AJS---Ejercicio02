@@ -4,8 +4,7 @@
 
 1. Crear nuestro archivo de configuracion maestro llamado "app.js"
 
-		- Este archivo va tener las directivas o el modulo principal de angular de nuestra
-			aplicacion
+		- Este archivo va tener las directivas o el modulo principal de angular de nuestra aplicacion
 
 			var app = angular.module('universidadApp', []);
 
@@ -19,8 +18,7 @@
 
 		- ¿QUE ES UN CONTROLADOR?
 
-			Los controladores son los que se encargan de manejar el totalidad de la pagina
-			o una parte de la misma, se recomienta que esten bien encapsulados.
+			Los controladores son los que se encargan de manejar el totalidad de la pagina o una parte de la misma, se recomienta que esten bien encapsulados.
 
 			Por ejemplo:
 				- Controlador Profesor (todas las funciones relacionadas con el profesor)
@@ -57,8 +55,7 @@
 
 1. Agregar una caja de texto para el nombre
 
-		- Solo hay que poner las llaves("{{ }}") cuando ya usamos el "ng-src", caso contrario no porque
-			ya es una directiva de Angular
+		- Solo hay que poner las llaves("{{ }}") cuando ya usamos el "ng-src", caso contrario no porque	ya es una directiva de Angular
 
 2. Agregar una caja de texto para la edad
 
