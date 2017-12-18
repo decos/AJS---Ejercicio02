@@ -78,3 +78,11 @@
 7. Agregar en la vista los botones "Guardar" y "Cancelar"
 
 8. Añadir las funcionalidades para los dos botones creados en el punto 7
+
+## NG-HIDE / NG-SHOW
+
+1. Añadir una variable llamada `mostrarCaja` con valor por defecto `false`
+
+2. Modificar la variable de acuerdo a la función de cada botón
+
+3. Añadir la directiva `ng-show` en la vista principal
