@@ -79,6 +79,7 @@
 
 8. Añadir las funcionalidades para los dos botones creados en el punto 7
 
+
 ## NG-HIDE / NG-SHOW
 
 1. Añadir una variable llamada `mostrarCaja` con valor por defecto `false`
@@ -86,3 +87,17 @@
 2. Modificar la variable de acuerdo a la función de cada botón
 
 3. Añadir la directiva `ng-show` en la vista principal
+
+
+## ANIMACIONES - animate.css
+
+		Recursos:
+			- https://daneden.github.io/animate.css/
+
+1. Descarga la hoja de estilo del primer Recursos
+
+2. Añadir la hoja de estilo en el fichero `index.html`
+
+3. Añadir la clase `animated fadeIn` o `animated fadeIn` a la etiqueta DIV del formulario
+
+4. Modificar el fichero `animate.css` y añadir el estilo `.fast`
